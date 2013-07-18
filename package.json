@@ -1,8 +1,12 @@
 {
-    "name": "mojito",
+    "name": "simple-mojito",
     "description": "My Mojito application",
     "version": "0.0.1",
     "author": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/1950195/simple-mojito.git"
+    },
     "contributors": [],
     "dependencies": {
         "mojito": ">0.6"

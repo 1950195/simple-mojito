@@ -6,7 +6,7 @@
                 "type": "myMojit"
             },
             "frame": {
-                "type": "IndexMojit",
+                "type": "FrameMojit",
                 "config": {
                     "children": {
                         "header": {
@@ -28,7 +28,7 @@
         }
     },
     {
-        "settings": ["environment:development", "lang=en-US"],
+        "settings": ["environment:development"],
         "appPort": "8000",
         "specs": {
             "my": {
