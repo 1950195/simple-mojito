@@ -1,15 +1,25 @@
 [
     {
         "settings": [ "master" ],
-        "/": {
-           "path": "/",
-           "verbs": ["get"],
-           "call": "index.index"
-       },
+        "my": {
+            "verbs": ["get"],
+            "path": "/my",
+            "call": "my.index"
+        },
+        "my/another": {
+            "verbs": ["get"],
+            "path": "/my/another",
+            "call": "my.another"
+        },
+        "frame": {
+            "path": "/frame",
+            "verbs": ["get"],
+            "call": "frame.index"
+        },
         "config": {
-           "path": "/config",
-           "verbs": ["get"],
-           "call": "config.index"
+            "path": "/config",
+            "verbs": ["get"],
+            "call": "config.index"
        }
     }
 ]

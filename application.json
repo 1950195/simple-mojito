@@ -1,9 +1,11 @@
 [
     {
         "settings": [ "master" ],
-        "appPort": "80",
         "specs": {
-            "index": {
+            "my": {
+                "type": "myMojit"
+            },
+            "frame": {
                 "type": "IndexMojit",
                 "config": {
                     "children": {
