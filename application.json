@@ -1,0 +1,40 @@
+[
+    {
+        "settings": [ "master" ],
+        "appPort": "80",
+        "specs": {
+            "index": {
+                "type": "IndexMojit",
+                "config": {
+                    "children": {
+                        "header": {
+                            "type": "HeaderMojit"
+                        },
+                        "body": {
+                            "type": "BodyMojit",
+                            "action": "test"
+                        },
+                        "footer": {
+                            "type": "FooterMojit"
+                        }
+                    }
+                }
+            },
+            "config": {
+                "type": "ConfigMojit"
+            }
+        }
+    },
+    {
+        "settings": ["environment:a"],
+        "appPort": "8080",
+        "staticHandling": {
+            "forceUpdate": true
+        },
+        "yui": {
+            "config": {
+                "combine": false
+            }
+        }
+    }
+]
