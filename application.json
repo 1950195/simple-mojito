@@ -28,15 +28,16 @@
         }
     },
     {
-        "settings": ["environment:a"],
-        "appPort": "8080",
-        "staticHandling": {
-            "forceUpdate": true
-        },
-        "yui": {
-            "config": {
-                "combine": false
+        "settings": ["environment:development", "lang=en-US"],
+        "appPort": "8000",
+        "specs": {
+            "my": {
+                "type": "myAnotherMojit"
             }
         }
+    },
+    {
+        "settings": ["environment:production"],
+        "appPort": "80"
     }
 ]

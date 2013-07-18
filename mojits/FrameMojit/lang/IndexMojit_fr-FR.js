@@ -9,7 +9,7 @@
 YUI.add("lang/IndexMojit_fr-FR", function (Y) {
     Y.Intl.add(
         "IndexMojit",  // associated module
-        "fr",    // BCP 47 language tag
+        "fr-FR",    // BCP 47 language tag
         // key-value pairs for this module and language
         {
             GREETINGS: "salut",
