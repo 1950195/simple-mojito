@@ -1,6 +1,11 @@
 [
     {
         "settings": [ "master" ],
+        "my": {
+            "verbs": ["get"],
+            "path": "/my",
+            "call": "my.index"
+        },
         "frame": {
             "path": "/frame",
             "verbs": ["get"],
@@ -13,19 +18,9 @@
        }
     },
     {
-        "settings": ["environment:development"],
-        "my": {
-            "verbs": ["get"],
-            "path": "/my",
-            "call": "my.another"
-        }
+        "settings": ["environment:dev"]
     },
     {
-        "settings": ["environment:production"],
-        "my": {
-            "verbs": ["get"],
-            "path": "/my",
-            "call": "my.index"
-        }
+        "settings": ["environment:prod"]
     }
 ]
