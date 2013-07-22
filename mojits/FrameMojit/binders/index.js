@@ -1,5 +1,5 @@
 /*jslint anon:true, sloppy:true, nomen:true*/
-YUI.add('IndexMojitBinderIndex', function(Y, NAME) {
+YUI.add('FrameMojitBinderIndex', function(Y, NAME) {
 
 /**
  * The IndexMojitBinderIndex module.

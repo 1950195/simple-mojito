@@ -1,16 +1,16 @@
 
-YUI.add('IndexMojit-tests', function(Y) {
+YUI.add('FrameMojit-tests', function(Y) {
 
-    var suite = new YUITest.TestSuite('IndexMojit-tests'),
+    var suite = new YUITest.TestSuite('FrameMojit-tests'),
         controller = null,
         A = YUITest.Assert;
 
     suite.add(new YUITest.TestCase({
         
-        name: 'IndexMojit user tests',
+        name: 'FrameMojit user tests',
         
         setUp: function() {
-            controller = Y.mojito.controllers.IndexMojit;
+            controller = Y.mojito.controllers.FrameMojit;
         },
         tearDown: function() {
             controller = null;
@@ -30,7 +30,7 @@ YUI.add('IndexMojit-tests', function(Y) {
                 },
                 models: {
                     get: function(modelName) {
-                        A.areEqual('IndexMojitModel', modelName, 'wrong model name');
+                        A.areEqual('FrameMojitModel', modelName, 'wrong model name');
                         return {
                             getData: function(cb) {
                                 cb(null, modelData);
@@ -59,4 +59,4 @@ YUI.add('IndexMojit-tests', function(Y) {
     
     YUITest.TestRunner.add(suite);
     
-}, '0.0.1', {requires: ['mojito-test', 'IndexMojit']});
+}, '0.0.1', {requires: ['mojito-test', 'FrameMojit']});

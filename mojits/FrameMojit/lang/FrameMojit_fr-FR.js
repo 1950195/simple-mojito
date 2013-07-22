@@ -6,9 +6,9 @@
 
 /*jslint anon:true, sloppy:true, nomen:true*/
 
-YUI.add("lang/IndexMojit_fr-FR", function (Y) {
+YUI.add("lang/FrameMojit_fr-FR", function (Y) {
     Y.Intl.add(
-        "IndexMojit",  // associated module
+        "FrameMojit",  // associated module
         "fr-FR",    // BCP 47 language tag
         // key-value pairs for this module and language
         {

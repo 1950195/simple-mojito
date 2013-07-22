@@ -16,11 +16,5 @@
             "verbs": ["get"],
             "call": "config.index"
        }
-    },
-    {
-        "settings": ["environment:dev"]
-    },
-    {
-        "settings": ["environment:prod"]
     }
 ]

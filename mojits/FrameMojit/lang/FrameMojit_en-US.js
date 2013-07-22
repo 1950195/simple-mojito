@@ -6,15 +6,15 @@
 
 /*jslint anon:true, sloppy:true, nomen:true*/
 
-YUI.add("lang/IndexMojit_es-ES", function (Y) {
+YUI.add("lang/FrameMojit_en-US", function (Y) {
     Y.Intl.add(
-        "IndexMojit",  // associated module
-        "es-ES",    // BCP 47 language tag
+        "FrameMojit",  // associated module
+        "en-US",    // BCP 47 language tag  
         // key-value pairs for this module and language
         {
-            GREETING: "hola",
-            SAYS: "dice",
-            PREPOSITION: "en"
+            GREETING: "hello__",
+            SAYS: "says",
+            PREPOSITION: "at"
         }
     );
 }, "3.1.0", {requires: ['intl']});

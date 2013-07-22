@@ -6,7 +6,7 @@
                 "type": "myMojit"
             },
             "frame": {
-                "type": "IndexMojit",
+                "type": "FrameMojit",
                 "config": {
                     "children": {
                         "header": {
@@ -26,17 +26,5 @@
                 "type": "ConfigMojit"
             }
         }
-    },
-    {
-        "settings": ["environment:dev"],
-        "appPort": "8000"
-    },
-    {
-        "settings": ["environment:test"],
-        "appPort": "8080"
-    },
-    {
-        "settings": ["environment:prod"],
-        "appPort": "80"
     }
 ]

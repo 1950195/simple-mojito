@@ -1,5 +1,5 @@
 /*jslint anon:true, sloppy:true, nomen:true*/
-YUI.add('IndexMojitModel', function(Y, NAME) {
+YUI.add('FrameMojitModel', function(Y, NAME) {
 
 /**
  * The IndexMojitModel module.
