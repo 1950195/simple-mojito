@@ -54,6 +54,8 @@ YUI.add('FrameMojit', function(Y, NAME) {
                         }
                     }, true);
                 Y.log(meta);*/
+                Y.log(ac.assets);
+                Y.log(ac.assets.renderLocations());
                 ac.done(
                     Y.merge(data, ac.assets.renderLocations(), {
                         "name": NAME,

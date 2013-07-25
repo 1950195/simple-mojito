@@ -6,10 +6,10 @@
 
 /*jslint anon:true, sloppy:true, nomen:true*/
 
-YUI.add("lang/FrameMojit_en-US", function (Y) {
+YUI.add("lang/FrameMojit_en", function (Y) {
     Y.Intl.add(
         "FrameMojit",  // associated module
-        "en-US",    // BCP 47 language tag  
+        "en",    // BCP 47 language tag  
         // key-value pairs for this module and language
         {
             GREETING: "hello__",
