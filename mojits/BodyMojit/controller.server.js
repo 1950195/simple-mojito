@@ -1,26 +1,7 @@
 /*jslint anon:true, sloppy:true, nomen:true*/
+/*global YUI*/
 YUI.add('BodyMojit', function(Y, NAME) {
-
-/**
- * The BodyMojit module.
- *
- * @module BodyMojit
- */
-
-    /**
-     * Constructor for the Controller class.
-     *
-     * @class Controller
-     * @constructor
-     */
     Y.namespace('mojito.controllers')[NAME] = {
-
-        /**
-         * Method corresponding to the 'index' action.
-         *
-         * @param ac {Object} The ActionContext that provides access
-         *        to the Mojito API.
-         */
         index: function(ac) {
             ac.models.get('BodyMojitModel').getData(function(err, data) {
                 if (err) {
@@ -47,7 +28,10 @@ YUI.add('BodyMojit', function(Y, NAME) {
                 });
             });
         }
-
     };
-
-}, '0.0.1', {requires: ['mojito', 'mojito-assets-addon', 'mojito-models-addon', 'BodyMojitModel']});
+}, '0.0.1', {requires: [
+    'mojito',
+    'mojito-assets-addon',
+    'mojito-models-addon',
+    'BodyMojitModel'
+]});

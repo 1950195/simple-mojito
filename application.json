@@ -6,21 +6,7 @@
                 "type": "myMojit"
             },
             "frame": {
-                "type": "FrameMojit",
-                "config": {
-                    "children": {
-                        "header": {
-                            "type": "HeaderMojit"
-                        },
-                        "body": {
-                            "type": "BodyMojit",
-                            "action": "test"
-                        },
-                        "footer": {
-                            "type": "FooterMojit"
-                        }
-                    }
-                }
+                "type": "FrameMojit"
             },
             "config": {
                 "type": "ConfigMojit"

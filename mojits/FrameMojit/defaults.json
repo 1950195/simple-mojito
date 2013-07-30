@@ -1,0 +1,19 @@
+[
+    {
+        "settings": [ "master" ],
+        "config": {
+            "children": {
+                "header": {
+                    "type": "HeaderMojit"
+                },
+                "body": {
+                    "type": "BodyMojit",
+                    "action": "test"
+                },
+                "footer": {
+                    "type": "FooterMojit"
+                }
+            }
+        }
+    }
+]
